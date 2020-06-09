@@ -10,6 +10,7 @@
     "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
+    "start-local": "ng build && nodemon localServer.js",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --output-path dist  --aot --prod"
